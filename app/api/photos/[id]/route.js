@@ -1,4 +1,4 @@
-import { getPhotoById } from "@/lib/image-data";
+import { getPhotoById } from "@/lib/data";
 import { NextResponse } from "next/server";
 
 export async function GET(request, { params }) {
