@@ -25,3 +25,7 @@
     @apply absolute bottom-0 w-full text-center bg-black/50 py-2 transition-all duration-500 opacity-0 group-hover:opacity-100;
   }
 }
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.55);
+}
