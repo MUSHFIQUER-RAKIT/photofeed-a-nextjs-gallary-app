@@ -19,7 +19,7 @@ export function middleware(request) {
   const pathname = request.nextUrl.pathname;
 
   const pathnameIsMissingLocale = locales.every(
-    locale => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}/`
+    locale => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   );
 
   if (pathnameIsMissingLocale) {
